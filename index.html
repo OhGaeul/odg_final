@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>odg_you_were_a_kid_once</title>
+	<link rel="stylesheet" type="text/css" href="./css/rolling.css">
+	<meta charset="utf-8">
+	<meta name="description" content="성인들이 어린 시절의 기억을 회상하며 아이들과 함께 공유할 수 있는 상품을 만드는 브랜드입니다.">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://">
+	<meta property="og:image" content="./logo.gif">
+	<meta property="og:title" content="odg: You were a kid once">
+	<meta property="og:description" content="성인들이 어린 시절의 기억을 회상하며 아이들과 함께 공유할 수 있는 상품을 만드는 브랜드입니다.">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="./favicon.ico" type="image/x-icon">
+	<style type="text/css">
+	@font-face {
+    font-family: 'Cafe24Oneprettynight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+
+	@font-face {
+ 	font-family: 'NanumBarunGothic';
+ 	font-style: normal;
+ 	font-weight: 700;
+ 	src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');}
+
+ 	a:link { color: black; text-decoration:none; } 
+ 	a:visited {color: black; text-decoration:none;}
+ 	a:hover{color: white; text-decoration:none;}
+ 	a {transition: color .3s;}
+
+	img{display: block;}
+	body, html {margin: 0;padding: 0;height: 100%;background-color: #E6E6E6}
+	html{font-family: 'Cafe24Oneprettynight';}
+	div{font-size: 1.5rem;line-height: 1.5;letter-spacing:00px; word-break: keep-all; text-align: center;}
+
+	.absolute{display: block;position: absolute;}
+
+	.back0{height: 500px}
+	.logo{left:calc(50% - 150px);top:250px;width: 300px;z-index: 4}
+	.deco1{left:0px;top:0px;width: 500px;z-index: 2}
+	.deco3{right:0px;top:200px;width: 300px;z-index: 2}
+
+	.back1{background: url(back1.gif);background-size: 100% auto;background-repeat:no-repeat; height: 2200px;justify-content: center;}
+	.b1{font-size: 1.2rem;line-height: 1.5;letter-spacing:00px;
+		left:calc(50% - 100px);top:500px;display: block;}
+	.b2{font-size: 1.2rem;line-height: 1.5;letter-spacing:00px;
+		left:50%;top:670px;display: block;}
+	.b3{font-size: 1.2rem;line-height: 1.5;letter-spacing:00px;
+		left:calc(50% - 100px);top:850px;display: block;}
+	.logo3{left:calc(50% - 15px);bottom: 800px; width: 30px;z-index: 4;display: block;}
+	.logo2{left:calc(50% - 120px);bottom: 450px; width: 240px;z-index: 4;display: block;}
+
+	html, body {width: 100%;min-height: 100%;height: 100%;}
+	.rolling_top{font-family: 'NanumBarunGothic';font-weight: 700;font-size: 2rem}
+	.buttons_wrap {width: 100%;margin-right: 10px;margin-top: 10px;font-size: 0.9rem;font-weight: 400;letter-spacing:00px;text-align: center;}
+	.rolling_wrap {position: relative;width: 100%;min-height: 250px;height: 250px;margin: auto;margin-top: 20px;overflow: hidden;}
+	.rolling_wrap a {position: absolute;width: 400px;height: 100%;margin-left: 5px;margin-right: 5px;overflow: hidden;}
+	.rolling_wrap a img {width: 100%;height: 100%;}
+
+	.c1{background: url(c1.gif);background-size: 80% auto; background-position: center; background-repeat:no-repeat; height: 800px;display: flex;justify-content: center;margin-top: 1px}
+	.c11{font-size: 1.5rem;letter-spacing:00px;
+		left:calc(20% - 125px);top:150px;width: 250px}
+	.c12{font-size: 1.7rem;line-height: 1.5;letter-spacing:00px;
+		left:calc(50% - 300px);top:600px;width: 600px}
+
+
+	.c2{background: url(c2.gif);background-size: 80% auto;background-position: center;background-repeat:no-repeat; height: 800px;display: flex;justify-content: center;margin-top: 200px}
+	.c21{font-size: 1.5rem;letter-spacing:00px;
+		left:calc(50% - 100px);top:250px;width: 250px}
+	.c22{font-size: 1.7rem;line-height: 1.5;letter-spacing:00px;
+		left:calc(50% - 135px);top:400px;width: 250px}
+
+
+	.c3{background: url(c3.gif);background-size: 80% auto;background-position: center;background-repeat:no-repeat; height: 800px;display: flex;justify-content: center;margin-top: 200px}
+	.c31{font-size: 1.5rem;letter-spacing:00px;
+		left:calc(50% - 10px);top:100px;width: 300px}
+	.c32{font-size: 1.7rem;line-height: 1.5;letter-spacing:00px;
+		left:calc(50% - 135px);top:550px;width: 250px}
+
+
+	.end{background: url(end.gif);background-size: 70% auto;background-position: center;background-repeat:no-repeat; height: 1450px;display: flex;justify-content: center;margin-top: 1px}
+	.end1{font-size: 1.2rem;letter-spacing:00px;
+		left:calc(50% - 150px);top:420px;width: 300px}
+	.end2{font-size: 1.6rem;letter-spacing:00px;
+		left:calc(50% - 150px);top:350px;width: 300px}
+	.end3{font-size: 1.2rem;letter-spacing:00px;
+		left:calc(50% - 150px);top:530px;width: 300px}
+	.end4{font-size: 1.4rem;letter-spacing:00px;
+		right:20%;top:930px;width: 300px}
+	.endlogo{width: 240px;left:calc(50% - 120px);top:850px;}
+	.end5{font-size: 1.4rem;letter-spacing:00px;
+		left:80%;top:930px;width: 300px}
+
+	.row{margin: auto;display: flex;padding: 0px 0px;margin-bottom: 0px;position: relative;}
+	.dan{column-count: 2; column-gap: 50px; column-width: 100px;}
+
+	.footer{background-color: #93C1D9;height: 200px;margin-top: 20px;text-align: left;}
+	.footer-text{padding-top:40px ; padding-left: 20px; font-size:0.7rem ;letter-spacing: -1px;line-height: 15px;}
+	</style>
+</head>
+
+<body>
+<section class="back0">
+	<div class="row back0">
+		<img src="deco1.gif" class="absolute deco1">
+		<img src="deco3.gif" class="absolute deco3">
+	<div class="row back0">
+		<a href="https://odg.kr/" target="blank"><img src="comp4.gif" class="absolute logo"></a>
+	</div>
+
+	</div>
+</section>
+
+<section class="back1">
+	<div class="row back1">
+		<p class="absolute b1">여긴 어디?<br>나는 누구?</p>
+		<p class="absolute b2">여긴 어디지?<br>여기는<br>오디지.</p>
+		<img src="logo1.gif" class="absolute logo3">
+		<p class="absolute b3">여기는<br>현실에 지친 어른들이<br>동심을 찾아가는 곳.</p>
+		<img src="comp3.gif" class="absolute logo2">
+	</div>
+</section>
+
+<section>
+	<div class="rolling_top">
+		<p>ODG는 성인들이 어린 시절의 기억을 회상하며,<br>
+			아이들과 함께 공유할 수 있는 상품을 만드는 브랜드입니다.</p>
+	</div>
+</section>
+
+<section>
+	<div class="rolling_wrap">
+<a href="https://odg.kr/product/logo-sweatshirtgrey/27/category/77/display/1/" target="blank" class="content"><img src="r1.gif"/></a>
+<a href="https://odg.kr/product/odg-wind-jacket/99/category/77/display/1/" target="blank" class="content"><img src="r2.gif"/></a>
+<a href="https://odg.kr/product/silky-pantsblack/23/category/77/display/1/" target="blank" class="content"><img src="r3.gif"/></a>
+<a href="https://odg.kr/product/lt-x-odg-deer-sweatshirtslight-blue/93/category/77/display/1/" target="blank" class="content"><img src="r4.gif"/></a>
+<a href="https://odg.kr/product/odg-hoodiepink/25/category/77/display/1/" target="blank" class="content"><img src="r5.gif"/></a>
+<a href="https://odg.kr/product/rainbow-sweatshirt/83/category/77/display/1/" target="blank" class="content"><img src="r6.gif"/></a>
+<a href="https://odg.kr/product/lt-x-odg-deer-sweatshirtsblack/94/category/77/display/1/" target="blank" class="content"><img src="r7.gif"/></a>
+</div>
+
+<div class="buttons_wrap">
+<a href="javascript:void(0);" onclick="stopAction()" class="button">STOP</a>
+<a href="javascript:void(0);" onclick="startAction()" class="button">START</a>
+</div>
+</section>
+
+<section>
+	<div class="rolling_top">
+		<p><br><br><br><br>아이들의 순수한 표현을 그대로 담은 ODG의 유튜브로 놀러오세요.</p>
+	</div>
+</section>
+
+<section class="c1">
+	<div class="row c1">
+		<p class="absolute c11">머리가 너무 크지 않아?</p>
+		<img src="comp1.gif" class="absolute c12">
+		<a href="https://youtu.be/9Oe4tC86Yro?t=337" target="blank"><p class="absolute c12">괜찮아요.<br>머리가 크면 생각할 수 있는 공간이 많아지잖아요.</p></a>
+
+	</div>
+</section>
+<section class="c2">
+	<div class="row c2">
+		<p class="absolute c21">나를 얼만큼 좋아해?</p>
+		<img src="comp2.gif" class="absolute c22">
+		<a href="https://youtu.be/r20PCQ6-aCc?t=217" target="blank"><p class="absolute c22">나는 엄마를 <br>땅 끝에서 우주 끝까지 사랑해.</p></a>
+	</div>
+</section>
+<section class="c3">
+	<div class="row c3">
+		<p class="absolute c31">인기 없어요.</p>
+		<img src="comp2.gif" class="absolute c32">
+		<a href="https://youtu.be/O-lOTJt99Js?t=93" target="blank"><p class="absolute c32">인기 많잖아요. <br>우리가 있잖아요!</p></a>
+	</div>
+</section>
+<section class="end">
+	<div class="row end">
+		<p class="absolute end1">당신이 아이였을 적의</p>
+		<p class="absolute end2">참신한 발상을 <br><br><br>순수한 애정을<br><br><br> 따뜻한 위로를</p>
+		<p class="absolute end3">떠올려보세요.</p>
+		<p class="absolute end4">여기는</p>
+		<img src="logo2.gif" class="absolute endlogo">
+		<p class="absolute end5">입니다.</p>
+	</div>
+</section>
+
+<footer>
+	<p class="footer footer-text dan">
+	서울시 강남구 역삼동 740-10 6층<br>
+	COMPANY
+	(주)오디지<br>
+	BUSINESS LICENSE
+	841-87-01639<br>
+	CEO
+	윤성원<br>
+	HOSTING BY
+	심플렉스인터넷(주)<br>
+	TEL
+	02-558-7707<br>
+	MAIL ORDER LICENSE
+	제 2020-서울강남-03882호<br>
+	MAIL
+	info@odg.kr<br><br><br>
+	2021.05<br>Oh Autumn&nbsp;&nbsp;&nbsp; INSTA. &nbsp;&nbsp;&nbsp;@5__atom<br>https://odg.kr/의 홍보 페이지입니다.
+	</p>
+</footer>
+<script src="./jquery-3.1.0.min.js"></script>
+<script src="./rolling.js"></script>
+	<script type="text/javascript" src="./js/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="./js/rolling.js"></script>
+</body>
+</html>
